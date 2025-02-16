@@ -619,6 +619,7 @@ function renderTabs() {
                 reviewsTab.addEventListener('click', () => {
                     switchTab(reviewsTab, reviewsHTML);
                     renderReviews();
+                    reportReview();
                 });
 
                 FAQsTab.addEventListener('click', () => switchTab(FAQsTab, FAQsHTML));
