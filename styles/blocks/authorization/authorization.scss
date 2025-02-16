@@ -1,0 +1,15 @@
+.authorization-menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__body {
+    width: 100%;
+    max-width: 420px;
+    height: 520px;
+    border-radius: var(--border-radius-small);
+    border: 2px solid var(--color-light-gray);
+    padding: 16px;
+  }
+}
